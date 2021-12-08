@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Band</title>
+    <!-- CDN CSS Bootstrap 4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- CDN CSS Icons Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- Bundle JS Bootstrap 4 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="js/script.js"></script>
+</head>
+
+<header>
+
+    <nav class="navbar fixed-top navbar navbar-expand-sm">
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+        <div class="collapse navbar-collapse" id="navegacao">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link active">Home</a>
+                </li>
+
+                <li class="nav-item" id="integrantes2">
+                    <a href="#integrantes" class="nav-link">Integrantes</a>
+                </li>
+
+                <li class="nav-item" id="agenda2">
+                    <a href="#agenda" class="nav-link">Agenda</a>
+                </li>
+
+                <li class="nav-item" id="contact">
+                    <a href="#contato" class="nav-link">Contato</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://facebook.com" target="_blank">
+                        <i class="bi bi-facebook"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://twitter.com" target="_blank">
+                        <i class="bi bi-twitter"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="https://instagram.com" target="_blank">
+                        <i class="bi bi-instagram"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
+
+
+<body>
+
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+
+            <li data-target="#carouselSite" data-slide-to="0" class="active">
+
+                <li data-target="#carouselSite" data-slide-to="1">
+
+                </li>
+
+        </ol>
+
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <img src="https://i.imgur.com/iFZgp22.png" class="img-fluid d-block">
+
+                <div class="carousel-caption display d-none d-sm-block">
+
+                    <h1 id="title">ARCTIC
+                        <span style="color: #fbae17;">MONKEYS</span>
+                    </h1>
+                    <label id="descrition">Ouça nosso som<a href = "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH" target = "_blank"><img id = "spotify" src = "https://i.imgur.com/IVIAot0.png" alt = "spotify">
+      </a></label><br>
+
+
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="https://i.imgur.com/ySekk9O.png" class="img-fluid d-block">
+
+                <div class="carousel-caption display d-none d-sm-block">
+
+                    <div id="caixa">
+
+                        <h2 id="sobre">Nossa História<i class="bi bi-book"></i></h2>
+
+                        <p id="biografia">
+                            Arctic Monkeys, uma banda britânica de rock formada em 2002 nos subúrbios da cidade de Sheffield, na Inglaterra. A banda é geralmente considerada parte da cena indie rock assim como as bandas contemporâneas The Libertines, The Futureheads e Franz Ferdinand.
+                            Atingiram o sucesso através de demos e compartilhamento de arquivos na web.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+
+    </div>
+
+    <section class="container">
+
+        <div>
+            <h3 id="integrantes">
+                <li>Integrantes<i class="bi bi-people" id="grupo"></i></li>
+            </h3>
+        </div>
+
+        <div id="musicos">
+
+            <center>
+                <div class="box">
+                    <img class="img-fluid" id="music-img" src="https://i.imgur.com/ngD3dEW.png" />
+                    <span id="nome2">Alex Turner</span>
+                </div>
+                <div class="box">
+                    <img class="img-fluid" id="music-img" src="https://i.ibb.co/fCkDjtJ/matt-helders.png" />
+                    <span id="nome2">Matt Helders</span>
+                </div>
+
+                <div class="box">
+                    <img class="img-fluid" id="music-img" src="https://i.ibb.co/3zghzx5/jamie-cook.png" />
+                    <span id="nome2">Jamie Cook</span>
+                </div>
+                <div class="box">
+                    <img class="img-fluid" id="music-img" src="https://i.ibb.co/MgSCZHH/omalley.png" />
+                    <span id="nome2">Nick O'Malley</span>
+                </div>
+
+        </div>
+        </center>
+
+        <div id="instrumental">
+            <p>O grupo é formado por Alex Turner (vocal, guitarra), Matt Helders (bateria, backing vocal), Jamie Cook (guitarra) e Nick O'Malley (baixo, backing vocal).</p>
+        </div>
+
+        <div>
+            <h3 id="agenda">
+                <li>Agenda<i class="bi bi-calendar-event" id="calendario"></i></li>
+            </h3>
+        </div>
+
+        <div class="row" id="calender">
+            <div class="col-md-12 mb-5 mt-70">
+                <h4 id="data">Junho, 12</h4>
+                <table id="agenda2" class="table table-bordered table-striped text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col">Domingo</th>
+                            <th scope="col">Segunda</th>
+                            <th scope="col">Terça</th>
+                            <th scope="col">Quarta</th>
+                            <th scope="col">Quinta</th>
+                            <th scope="col">Sexta</th>
+                            <th scope="col">Sábado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="align-middle"></td>
+                            <td class="align-middle"></td>
+                            <td class="align-middle">1</td>
+                            <td class="align-middle">2</td>
+                            <td class="align-middle">3</td>
+                            <td class="align-middle">4</td>
+                            <td class="align-middle">5</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">6</td>
+                            <td class="align-middle">7</td>
+                            <td class="align-middle">8</td>
+                            <td class="align-middle">9</td>
+                            <td class="align-middle">10</td>
+                            <td class="align-middle">11</td>
+                            <td class="align-middle">12</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">13</td>
+                            <td class="align-middle">14</td>
+                            <td class="align-middle">15</td>
+                            <td class="align-middle bg-secondary">16</td>
+                            <td class="align-middle">17</td>
+                            <td class="align-middle">18</td>
+                            <td class="align-middle">19</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">20</td>
+                            <td class="align-middle">21</td>
+                            <td class="align-middle">22</td>
+                            <td class="align-middle">23</td>
+                            <td class="align-middle">24</td>
+                            <td class="align-middle bg-secondary">25</td>
+                            <td class="align-middle">26</td>
+                        </tr>
+                        <tr>
+                            <td class="align-middle">27</td>
+                            <td class="align-middle">28</td>
+                            <td class="align-middle bg-secondary">29</td>
+                            <td class="align-middle">30</td>
+                            <td class="align-middle"></td>
+                            <td class="align-middle"></td>
+                            <td class="align-middle"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p id="shows">16/06 - Local, horário </p>
+                <p id="shows">25/06 - Local, horário</p>
+                <p id="shows">29/06 - Local, horário</p>
+            </div>
+        </div>
+
+        <div>
+            <h3 id="contato">
+                <li>Contacte-nos<i class="bi bi-envelope" id="envelope"></i></li>
+            </h3>
+        </div>
+
+        <div>
+            <p id="contato2"><i class="bi bi-telephone-inbound-fill"></i>Contatos para Show: (81) 996420780 | (81) 996782414</p>
+        </div>
+
+        <form id="form">
+
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Seu Nome" autocomplete="off">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="nome@examplo.com" autocomplete="off">
+            </div>
+            <div class="mb-3">
+                <label for="msg" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="msg" rows="3" placeholder="Deixe um recado..." autocomplete="off"></textarea>
+
+                <center><button type="button" class="btn btn-warning" id="enviar" onclick="captura()">Enviar</button></center>
+            </div>
+        </form>
+
+    </section>
+
+
+</body>
+
+<footer>
+    <div class="text-center pt-2">
+        <span>©Copyright 2021 - Arthur Isvi - Todos os direitos reservados</span>
+    </div>
+</footer>
+
+</html>

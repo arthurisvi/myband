@@ -1,0 +1,183 @@
+body {
+    background-image: linear-gradient(to left, #1C1C1C, #363636, #1C1C1C);
+}
+
+#navegacao a {
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.active {
+    background-color: #fbae17;
+}
+
+.bi-facebook,
+.bi-twitter,
+.bi-instagram {
+    color: #fbae17;
+    font-size: 2vw;
+}
+
+.nav-link:hover:not(.active),
+.dropdown-item:hover {
+    background-color: #363636;
+    color: white !important;
+}
+
+#spotify {
+    height: 50px;
+}
+
+#title {
+    text-shadow: 4px 4px 8px black;
+    font-size: 5.75vw;
+}
+
+#descrition {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 5px;
+    background-color: #fbae17;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 1.5vw;
+    box-shadow: 2px 2px 4px black;
+}
+
+#caixa {
+    background-image: linear-gradient(to left, #4F4F4F, #363636, #4F4F4F);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+}
+
+#biografia {
+    /*text-shadow: 1px 1px 2px black;*/
+    font-size: 1.25vw;
+    text-align: center;
+    color: #fbae17;
+}
+
+#sobre {
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.bi-book {
+    color: #fbae17;
+    font-size: 2.6vw;
+    margin-left: 10px;
+}
+
+div.box {
+    margin-left: 30px;
+    width: 150px;
+    display: inline-block;
+}
+
+#nome2 {
+    color: #fbae17;
+    font-size: 1vw;
+}
+
+#music-img {
+    border-radius: 8px;
+    border: 3px solid #fbae17;
+}
+
+#contato,
+#integrantes,
+#agenda {
+    margin-top: 25px;
+    color: #fbae17;
+    cursor: pointer;
+    font-size: 2.1vw;
+}
+
+#agenda2 {
+    color: #fbae17;
+}
+
+#data {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.5vw;
+}
+
+#contato {
+    margin-bottom: 25px;
+}
+
+#contato2 {
+    color: white;
+    font-size: 1.25vw;
+}
+
+.bi-telephone-inbound-fill {
+    margin-right: 10px;
+}
+
+#grupo,
+#envelope,
+#calendario {
+    margin-left: 10px;
+}
+
+#agenda2 th {
+    font-size: 1.5vw;
+}
+
+#agenda2 td {
+    height: 100px;
+    /* 100% / 7 colunas */
+    width: 14.29%;
+}
+
+#shows {
+    color: white;
+    font-size: 1.25vw;
+}
+
+#instrumental {
+    margin-top: 20px;
+    color: white;
+    font-size: 1.25vw;
+}
+
+#form,
+#calender,
+#contato2,
+#musicos,
+#instrumental {
+    display: none;
+}
+
+.mb-3 {
+    color: white;
+}
+
+#enviar {
+    background-color: #fbae17;
+    margin-top: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    font-size: 1.15vw;
+    Background-image: linear-gradient(to left, #1C1C1C, #4F4F4F, #1C1C1C);
+    height: 60px;
+    padding-top: 10px;
+    /*color: #FFD700;*/
+    color: white;
+    font-style: italic;
+}
